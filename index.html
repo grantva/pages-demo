@@ -2,8 +2,30 @@
 <html>
   <head>
     <title>Pages Demo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
   </head>
   <body>
     <h1>Hello</h1>
+    <button id="btn" class="btn btn-primary">Click Me</button>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam ipsum vitae urna hendrerit, aliquam congue magna gravida. In aliquam, ante nec congue gravida, nisi justo molestie neque, condimentum efficitur massa mauris eget ex. Praesent porta posuere nibh, ultrices efficitur lacus suscipit vitae. Sed sagittis dolor vitae risus semper, vitae luctus ante dapibus. Morbi consequat est erat, eu lacinia libero sodales a. Vivamus volutpat egestas purus eget pulvinar. In massa diam, rutrum in faucibus sed, imperdiet id est. Sed imperdiet sagittis sem, ac sollicitudin lorem rhoncus a. Duis vel nulla a dolor eleifend sollicitudin id et metus. Cras mauris tortor, commodo sed felis non, posuere porttitor diam. Phasellus sit amet risus in tortor interdum semper.</p>
+    <p>Sed feugiat dolor non tincidunt vulputate. Nullam posuere neque sem, vitae eleifend odio tincidunt dignissim. Vivamus ut felis faucibus eros molestie elementum. Maecenas at dui sit amet orci mattis maximus non aliquam urna. Cras velit ante, accumsan eu ligula at, tempor fringilla odio. Ut eget libero consectetur, rhoncus dui nec, blandit velit. Praesent a scelerisque neque. Aenean odio felis, faucibus ac ipsum ut, pellentesque tempus mi. In id velit leo. Quisque laoreet mauris scelerisque accumsan dapibus. Cras vel lectus ornare, viverra ipsum sit amet, blandit ligula. Morbi et sapien sed lacus efficitur fermentum.</p>
+    <p>Sed interdum ultricies eros, ac ultricies arcu auctor vitae. Suspendisse potenti. Curabitur feugiat eget neque vulputate maximus. Suspendisse fringilla diam sit amet magna porttitor aliquet. Nulla scelerisque, arcu id sollicitudin mollis, nisi ligula porta nibh, rutrum aliquam purus sapien vel lectus. Nullam eget sagittis purus. Integer quis enim ac eros rutrum varius. Donec tempor arcu tortor. Quisque vulputate bibendum nibh ut tincidunt. Curabitur ipsum leo, tempor eget faucibus sed, varius a est.</p>
+    <p>Duis eleifend, metus eu pellentesque ultricies, nisl eros cursus erat, ut venenatis sapien lorem eget libero. Vestibulum id mollis nibh. Etiam quis elementum leo. In hac habitasse platea dictumst. Maecenas libero neque, tincidunt id velit quis, dignissim hendrerit dui. Suspendisse malesuada dui vel purus vulputate, rhoncus molestie arcu malesuada. Etiam vitae quam a mi elementum luctus.</p>
+    <p>Maecenas sed lectus ac est commodo bibendum ut vitae ante. Etiam placerat fermentum velit eget convallis. Suspendisse potenti. Duis sagittis, odio et fringilla ullamcorper, magna diam convallis enim, ut pellentesque lectus mauris at felis. Cras eleifend faucibus nunc, imperdiet vestibulum turpis convallis in. Integer a justo justo. In bibendum nulla magna, in tristique nisi ultrices eget. Cras pellentesque, dolor sed egestas vehicula, ligula dui eleifend nisi, sed lacinia eros dui vitae nisl. Etiam sed eros et turpis semper consequat. Integer semper sapien ut placerat vehicula. Curabitur luctus mauris a blandit congue. Vivamus fringilla nisl in ipsum tristique, sit amet dignissim neque faucibus. Duis nunc tellus, efficitur ac euismod quis, porta sed metus. Phasellus mattis pretium maximus. Nunc semper, eros elementum tempus mollis, urna eros condimentum lectus, sed feugiat odio tellus vitae risus. Maecenas quis nunc non urna tempus mollis quis id elit.</p>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" 
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" 
+            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" 
+            crossorigin="anonymous"></script>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", e => alert("Click"));
+    </script>
   </body>
 </html>
