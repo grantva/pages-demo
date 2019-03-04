@@ -25,8 +25,15 @@
             integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" 
             crossorigin="anonymous"></script>
     <script>
+      let counter = 0;
       const btn = document.getElementById("btn");
-      btn.addEventListener("click", e => alert("Click"));
+      const body = document.getElementsByTagName("body")[0];
+      btn.addEventListener("click", swapColors);
+      
+      function swapColors(){
+        body.setAttribute("class", counter % 2 == 0 ? "dark" : "light");
+        counter++;
+      }
     </script>
   </body>
 </html>
